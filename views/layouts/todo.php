@@ -9,7 +9,7 @@ $this->beginPage();
 $this->title = 'To-do List Code21';
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="<?= Yii::$app->language ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
