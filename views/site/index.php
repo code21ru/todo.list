@@ -4,50 +4,42 @@
 
 $this->title = 'My Yii Application';
 ?>
-<div class="site-index">
-
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
-        </div>
-
-    </div>
+<div class="tasks">
+    <!-- title -->
+    <h1>CSS3 To-Do List</h1>
+    <!-- task 1 -->
+    <input id='label-1' type='checkbox' checked/>
+    <label for='label-1'>
+        <h2>Eat My Breakfast
+            <span>oatmeal, fruits &amp; morning tea</span>
+        </h2>
+    </label>
+    <!-- task 2 -->
+    <input id='label-2' type='checkbox' checked/>
+    <label for='label-2'>
+        <h2>e-mail processing
+            <span>art&amp;&amp;code, personal</span>
+        </h2>
+    </label>
+    <!-- task 3 -->
+    <input id='label-3' type='checkbox'/>
+    <label for='label-3'>
+        <h2>Meditation
+            <span>out of my mind</span>
+        </h2>
+    </label>
+    <!-- task 4 -->
+    <input id='label-4' type='checkbox'/>
+    <label for='label-4'>
+        <h2>Code, Code, Code
+            <span>hit f12 &amp; let's get wasted</span>
+        </h2>
+    </label>
+    <!-- task 5 -->
+    <input id='label-5' type='checkbox'/>
+    <label for='label-5'>
+        <h2>Watch Screencast
+            <span>Ruby on Rails, yeah!</span>
+        </h2>
+    </label>
 </div>
