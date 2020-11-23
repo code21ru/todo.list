@@ -21,7 +21,7 @@ $this->title = 'To-do List Code21';
 </head>
 <body>
     <?php $this->beginBody() ?>
-    <?
+    <?= $content ?>
     <?php $this->endBody() ?>
 </body>
 </html>
